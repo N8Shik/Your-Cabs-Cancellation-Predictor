@@ -22,7 +22,7 @@ This project uses XGBoost to predict whether a cab booking will be cancelled bas
 ## 📁 Project Structure
 
 ```
-ur cabs/
+Your-Cabs-Cancellation-Predictor/
 ├── app.py                 # Streamlit web application
 ├── data/
 │   └── YourCabs.csv      # Raw dataset
@@ -43,8 +43,8 @@ ur cabs/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/N8Shik/ML-Models.git
-   cd "ur cabs"
+   git clone https://github.com/N8Shik/Your-Cabs-Cancellation-Predictor.git
+   cd Your-Cabs-Cancellation-Predictor
    ```
 
 2. **Create virtual environment:**
@@ -148,7 +148,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Shikhar Naithani** - [@N8Shik](https://github.com/N8Shik)
 
-Project Link: [https://github.com/N8Shik/ML-Models](https://github.com/N8Shik/ML-Models)
+Project Link: [https://github.com/N8Shik/Your-Cabs-Cancellation-Predictor](https://github.com/N8Shik/Your-Cabs-Cancellation-Predictor)
 
 ---
 
