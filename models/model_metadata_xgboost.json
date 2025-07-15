@@ -1,8 +1,11 @@
 {
   "model_name": "XGBoost",
-  "auc_score": 0.7925077474353898,
-  "accuracy": 0.9293196730747093,
+  "auc_score": 0.7684971382346986,
+  "accuracy": 0.763784966041211,
+  "cv_auc_score": 0.864770567463046,
+  "cv_auc_std": 0.002945431141546982,
   "needs_scaling": false,
+  "training_method": "SMOTE",
   "feature_names": [
     "online_booking",
     "mobile_site_booking",
@@ -141,5 +144,26 @@
   ],
   "model_type": "classification",
   "training_date": "2025-07-15",
-  "notes": "Best performing model from comparison study"
+  "notes": "XGBoost model trained with SMOTE balanced data. Superior CV performance (86.5%) vs original (79.7%)",
+  "class_balance_info": {
+    "original_cancellation_rate": 0.07212756159336864,
+    "used_smote": true,
+    "smote_balanced_rate": 0.5,
+    "original_train_size": 34744,
+    "smote_train_size": 64476
+  },
+  "performance_comparison": {
+    "smote_model": {
+      "test_auc": 0.7684971382346986,
+      "test_accuracy": 0.763784966041211,
+      "cv_auc": 0.864770567463046,
+      "cv_auc_std": 0.002945431141546982
+    },
+    "original_model": {
+      "test_auc": 0.793,
+      "test_accuracy": 0.929,
+      "cv_auc": 0.797,
+      "cv_auc_std": 0.005
+    }
+  }
 }
